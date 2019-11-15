@@ -6,4 +6,4 @@ git commit -m "commit msg"
 git status
 git log
 git push
-
+[master]
