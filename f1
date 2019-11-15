@@ -1,0 +1,6 @@
+git reset --soft cid
+git reset head filename
+git reset --mixed cid
+git commit -am "label msg" filename
+git log 
+git show cid
