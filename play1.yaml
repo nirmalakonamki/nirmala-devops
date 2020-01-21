@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: installing git packages
+    yum: name=git state=latest
+
